@@ -1,0 +1,18 @@
+DealyedCommand lists
+----------------------------------------
+
+License: Bukkit/CraftBukkit in mind + minimal.
+
+Purpose: Simply delay a command by a tick or a specified duration in ticks, for testing purposes.
+
+Permissions: Ops always, otherwise (SuperPerms): delayedcommand.use 
+
+Commands: 
+
+* delayedcommmand (delayedcmd, dlcmd): 
+   you can specify a <delay> in 1/20th of a second using -delay=<delay> as first argument, 
+   the rest is the command to be executed. 
+   Specifying no arguments results in no-operation (might also be useful).
+   
+
+Installation: Just put into the plugins folder, no configuration needed.

@@ -1,0 +1,10 @@
+name: DelayedCommand
+main: me.asofold.bukkit.delayedcommand.DelayedCommand
+version: 0.0.0
+commands:
+  delayedcommand:
+    description: 'Delay a command, optional first argument: -delay=<delay>'
+    usage: 'delayedcommand ... or delayedcomand -delay=<delay> ...'
+    aliases:
+    - delayedcmd
+    - dlcmd
