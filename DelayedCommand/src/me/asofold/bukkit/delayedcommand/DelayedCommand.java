@@ -17,6 +17,10 @@ public class DelayedCommand extends JavaPlugin {
 	@Override
 	public boolean onCommand(CommandSender sender, Command command,
 			String label, String[] args) {
+		if (!sender.isOp() && !sender.hasPermission("delayedcommand.use")){
+			sender.sendMessage("You do not have permission to use this!");
+			return true;
+		}
 		int len = args.length;
 		if (len == 0) return true; // allows for a no op command!
 		int startIndex = 0;
